@@ -1,4 +1,4 @@
 #Use Nginx as base image
 
-From nginx:latest
+FROM nginx:latest
 COPY . /usr/share/nginx/html
